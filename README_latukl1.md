@@ -1,22 +1,13 @@
-# 📘 README --- UKL Pemrograman Dasar (Java)
-
-Dokumentasi lengkap tugas UKL Pemrograman Dasar berisi enam program Java
-dengan berbagai tingkat kesulitan.
-
-Setiap bagian berisi: - Penjelasan fungsi dan cara kerja program -
-Contoh kode Java - Tempat untuk menambahkan screenshot hasil output
-
-------------------------------------------------------------------------
-
-## 🧩 SOAL 1 -- Mudah
+SOAL 1 -- Mudah
 
 ### 1️⃣ Menghitung Biaya Pengiriman Barang
 
-**🧠 Fungsi Program:**\
+** Fungsi Program:**\
 Menghitung total biaya pengiriman berdasarkan berat, jarak tempuh, dan
 volume paket.
 
-**⚙️ Cara Kerja Program:** 1. Input panjang, lebar, tinggi, berat, dan
+** Cara Kerja Program:** 
+1. Input panjang, lebar, tinggi, berat, dan
 jarak paket.\
 2. Hitung volume: `volume = panjang * lebar * tinggi`\
 3. Tentukan biaya per kg berdasarkan jarak:\
@@ -25,46 +16,24 @@ jarak paket.\
 4. Tambahkan biaya tambahan Rp 50.000 jika volume \> 100 cm³\
 5. Hitung total biaya dan tampilkan hasil.
 
-**💻 Contoh Kode:**
-
-``` java
-if (jarak <= 10) {
-    biayaPerKg = 4250;
-} else {
-    biayaPerKg = 6000;
-}
-if (volume > 100) {
-    biayaTambahan = 50000;
-}
-total = (berat * biayaPerKg) + biayaTambahan;
-```
-
 **📸 Screenshot Output:**\
-*(Tambahkan di sini gambar hasil program Anda)*
+![Output Program Paket](ssmudah1.png)
+
 
 ------------------------------------------------------------------------
 
 ### 2️⃣ Menentukan Bilangan Ganjil atau Genap
 
-**🧠 Fungsi Program:**\
+** Fungsi Program:**\
 Menentukan apakah bilangan yang dimasukkan adalah ganjil atau genap.
 
-**⚙️ Cara Kerja Program:** 1. Input bilangan dari pengguna.\
+** Cara Kerja Program:** 
+1. Input bilangan dari pengguna.\
 2. Gunakan operator modulus `%` untuk menentukan sisa bagi 2.\
 3. Jika sisa 0 → genap, jika tidak → ganjil.
 
-**💻 Contoh Kode:**
-
-``` java
-if (angka % 2 == 0) {
-    System.out.println("Bilangan Genap");
-} else {
-    System.out.println("Bilangan Ganjil");
-}
-```
-
 **📸 Screenshot Output:**\
-*(Tambahkan di sini gambar hasil program Anda)*
+![Output Program GG](ssmudah2.png)
 
 ------------------------------------------------------------------------
 
