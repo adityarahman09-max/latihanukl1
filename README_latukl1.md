@@ -19,7 +19,6 @@ jarak paket.\
 **📸 Screenshot Output:**\
 ![Output Program Paket](ssmudah1.png)
 
-
 ------------------------------------------------------------------------
 
 ### 2️⃣ Menentukan Bilangan Ganjil atau Genap
@@ -37,118 +36,71 @@ Menentukan apakah bilangan yang dimasukkan adalah ganjil atau genap.
 
 ------------------------------------------------------------------------
 
-## ⚙️ SOAL 2 -- Sedang
+SOAL 2 -- Sedang
 
 ### 3️⃣ Menghitung Faktorial
 
-**🧠 Fungsi Program:**\
+** Fungsi Program:**\
 Menghitung nilai faktorial dari bilangan bulat positif.
 
-**⚙️ Cara Kerja Program:** 1. Input bilangan `n`.\
+** Cara Kerja Program:** 
+1. Input bilangan `n`.\
 2. Gunakan perulangan `for` untuk menghitung `n!`.\
 3. Tampilkan hasil faktorial.
 
-**💻 Contoh Kode:**
-
-``` java
-int hasil = 1;
-for (int i = 1; i <= n; i++) {
-    hasil *= i;
-}
-System.out.println("Faktorial: " + hasil);
-```
-
 **📸 Screenshot Output:**\
-*(Tambahkan di sini gambar hasil program Anda)*
+![Output Program Faktorial](sssedang1.png)
 
 ------------------------------------------------------------------------
 
 ### 4️⃣ Menghitung Volume Tabung (Dengan Fungsi)
 
-**🧠 Fungsi Program:**\
+** Fungsi Program:**\
 Menghitung volume tabung menggunakan fungsi dengan parameter.
 
-**⚙️ Cara Kerja Program:** 1. Gunakan rumus `V = π * r * r * t`.\
+** Cara Kerja Program:** 1. Gunakan rumus `V = π * r * r * t`.\
 2. Buat fungsi `hitungVolume(double r, double t)`.\
 3. Panggil fungsi di `main()` untuk menampilkan hasil.
 
-**💻 Contoh Kode:**
-
-``` java
-public static double hitungVolume(double r, double t) {
-    return Math.PI * r * r * t;
-}
-```
-
 **📸 Screenshot Output:**\
-*(Tambahkan di sini gambar hasil program Anda)*
+![Output Fungsi Vol Tabung](sssedang2.png)
 
 ------------------------------------------------------------------------
 
-## 🧮 SOAL 3 -- Sulit
+SOAL 3 -- Sulit
 
 ### 5️⃣ Menghitung Rata-rata Nilai Siswa
 
-**🧠 Fungsi Program:**\
+** Fungsi Program:**\
 Menghitung rata-rata nilai ujian dari sejumlah siswa.
 
-**⚙️ Cara Kerja Program:** 1. Input jumlah siswa.\
+** Cara Kerja Program:** 
+1. Input jumlah siswa.\
 2. Gunakan perulangan untuk input nilai tiap siswa.\
 3. Jumlahkan semua nilai dan bagi dengan jumlah siswa.
 
-**💻 Contoh Kode:**
-
-``` java
-double total = 0;
-for (int i = 1; i <= jumlah; i++) {
-    total += nilai[i];
-}
-double rata = total / jumlah;
-System.out.println("Rata-rata: " + rata);
-```
-
 **📸 Screenshot Output:**\
-*(Tambahkan di sini gambar hasil program Anda)*
+![Output Rekapitulasi Nilai](sssulit1.png)
 
 ------------------------------------------------------------------------
 
 ### 6️⃣ Penjumlahan Dua Matriks
 
-**🧠 Fungsi Program:**\
+** Fungsi Program:**\
 Menjumlahkan dua buah matriks berukuran sama.
 
-**⚙️ Cara Kerja Program:** 1. Input ukuran (baris, kolom).\
+** Cara Kerja Program:** 
+1. Input ukuran (baris, kolom).\
 2. Input elemen matriks A dan B.\
 3. Tambahkan elemen A\[i\]\[j\] + B\[i\]\[j\] dan simpan ke matriks
 hasil.\
 4. Cetak hasil penjumlahan.
 
-**💻 Contoh Kode:**
-
-``` java
-for (int i = 0; i < baris; i++) {
-    for (int j = 0; j < kolom; j++) {
-        hasil[i][j] = matriksA[i][j] + matriksB[i][j];
-    }
-}
-```
-
 **📸 Screenshot Output:**\
-*(Tambahkan di sini gambar hasil program Anda)*
-
-------------------------------------------------------------------------
-
-## 🧠 Kesimpulan
-
-Enam program di atas melatih kemampuan dasar pemrograman Java,
-meliputi: - Penggunaan input/output (`Scanner`) - Struktur kendali
-(`if-else`, `for` loop) - Fungsi dan parameter - Array 2 dimensi
-(Matriks)
-
-Setiap program dapat dijalankan di VS Code atau IDE Java lainnya.
+![Output Matriks](sssulit2.png)
 
 ------------------------------------------------------------------------
 
 📝 **Disusun oleh:**\
-Siswa RPL SMK Telkom Malang\
-Untuk Tugas UKL Pemrograman Dasar
+Aditya Rahman / X RPL 2 / 02 \
+
